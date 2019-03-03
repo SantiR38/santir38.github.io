@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Pacifico" type="text/css">
+		<link rel="shortcut ico" href="favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<title>Algarrobo Puro - Catálogo</title>
+		<style>
+			body{
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+			div{
+				font-family: sans-serif;
+				padding-right: 50%;
+				padding-left: 50%;
+			}
+			h1{
+				text-align: center;
+				margin-left: 30px;
+			}
+			.bloques-centrados{
+				margin: 0rem;
+				padding: 0rem;
+				border: 50%;
+				text-align: center;
+			}
+			.fotos{
+				display: inline-block;
+				clear: right;
+				padding-right: 0in;
+				padding-left: 1in;
+				margin-left: 1in;
+				margin-right: 0in;
+			}
+		</style>
+	</head>
+	<body background="imgs/background1.jpg" style="background-size: 100%">
+		<nav class="se-gris quitarfloat center-block">
+			<ul class="row lista text-center" style="list-style-type: none;">
+				<li class="col-md-4 col-sm-4 col-xs-4">
+					<a href="index.html" class="pacifico darkred4">Algarrobo Puro</a>
+				</li>
+				<li class="col-md-4 col-sm-4 col-xs-4">
+					<a href="contacto.html" class="darkred4">Contacto</a>
+				</li>
+				<li class="col-md-4 col-sm-4 col-xs-4">
+					<a href="catálogo.html" class="darkred4"><strong>Catálogo</strong></a>
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<h1 class="pacifico grande darkred4">Catálogo</h1>
+			<div class="bloque-en-linea fotos">
+				<div class="col-md-4 col-sm-3 col-xs-7 bloques-centrados">
+					<article class="col-md-6">
+						<h3 class="pacifico">Silla Tablero</h3>
+						<a href="imgs/silla-tablero1.jpg">
+						<img id="agrandar" src="imgs/silla-tablero1.jpg" class="img-thumbnail">
+						</a>
+						<p id="comprajs3">
+							<strong>$950</strong>
+						</p>
+						<button type="button" onclick='document.getElementById("comprajs3").innerHTML = "Compra Exitosa!"'>Comprar</button>
+					</article>
+				</div>
+				<div class="col-md-4 col-sm-3 col-xs-7 bloques-centrados">
+					<article class="col-md-6">
+						<h3 class="pacifico">Silla Arabesca</h3>
+						<a href="imgs/silla-nube.jpg">
+							<img src="imgs/silla-nube.jpg" class="img-thumbnail">
+						</a>
+
+						<p id="comprajs2">
+							<strong>$950</strong>
+						</p>
+						<button type="button" onclick='document.getElementById("comprajs2").innerHTML = "Compra Exitosa!"'>Comprar</button>
+					</article>
+				</div>
+				<div class="col-md-4 col-sm-3 col-xs-7 bloques-centrados">
+					<article class="col-md-6">
+						<h3 class="pacifico">Mesa Cuadrada</h3>
+						<a href="imgs/mesa-cuadrada.jpg">
+							<img src="imgs/mesa-cuadrada.jpg" class="img-thumbnail">						
+						</a>
+						<a href="imgs/mesa-cuadrada2.jpg">
+						<img src="imgs/mesa-cuadrada2.jpg" class="img-thumbnail espacio-arriba">						
+						</a>
+						<p id="comprajs">
+							<strong>$6600</strong>
+						</p>
+						<button type="button" onclick='document.getElementById("comprajs").innerHTML = "Compra Exitosa!"'>Comprar</button>
+					</article>
+				</div>
+			</div>
+			<div class="fotos">
+				<div class="col-md-4 col-sm-3 col-xs-7 bloques-centrados">
+					<article class="col-md-6">
+						<h3 class="pacifico">Modular Pino</h3>
+						<a href="imgs/modular1.jpg">
+							<img src="imgs/modular1.jpg" class="img-thumbnail">
+						</a>
+						<p id="comprajs4">
+							<strong>X</strong>
+						</p>
+						<button type="button" onclick='document.getElementById("comprajs4").innerHTML = "Compra Exitosa!"'>Comprar</button>
+					</article>
+				</div>
+				<div class="col-md-4 col-sm-3 col-xs-7 bloques-centrados">
+					<article class="col-md-6">
+						<h3 class="pacifico">Silla de Pino</h3>
+						<a href="imgs/silla-pino1.jpg">
+							<img src="imgs/silla-pino1.jpg" class="img-thumbnail">
+						</a>
+						<p id="comprajs5">
+							<strong>X</strong>
+						</p>
+						<button type="button" onclick='document.getElementById("comprajs5").innerHTML = "Compra Exitosa!"'>Comprar</button>
+					</article>
+				</div>
+				<div class="col-md-4 col-sm-3 col-xs-7 bloques-centrados">
+					<article class="col-md-6">
+						<h3 class="pacifico">Cajón de Pino</h3>
+						<a href="imgs/cajon-pino.jpg">
+							<img src="imgs/cajon-pino.jpg" class="img-thumbnail">
+						</a>
+						<p id="comprajs6">
+							<strong>X</strong>
+						</p>
+						<button type="button" onclick='document.getElementById("comprajs6").innerHTML = "Compra Exitosa!"'>Comprar</button>
+					</article>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+img{
+	width: 100%;
+}
+.quitarfloat{
+	float: none;
+}
+#principal{
+	color: darkred;
+}
+.espacio-arriba{
+	margin-top: 10px;
+}
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+.grande{
+	font-size: 4em;
+}
+.cuadro-grande{
+	block-size: 2in;
+}
+.mediano{
+	font-size: 2em;
+}
+.darkred4{
+	color: #732424;
+}
+.darkred2{
+	color: #401010;
+}
+.woodpink{
+	color: #A63838;
+}
+.espacio-derecha{
+	margin-right: 2em;
+}
+a{
+	color: #B96466;
+}
+.lista{
+	margin: 0px;
+}
+.se-gris{
+	background-color: lightgrey;
+}
+.azul{
+	color: #009FFF;
+}
+.bloque-en-linea{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.centrar-bloque{
+	justify-content: center;
+}
